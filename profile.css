@@ -1,0 +1,84 @@
+.image
+{
+  border-radius:5px;
+  width:110px;
+  margin-right:0px;
+  height:110px;
+
+}
+.outerline,.outerline2,.outerline3
+{
+  width:110px;
+  border:none;
+  display:inline-block;
+  height:175px;
+  border-color:grey;
+  box-shadow: 1px 1px 1px 0.1px rgb(196, 196, 196);
+  vertical-align: top;
+  border-radius:5px;
+}
+.name
+{
+  font-family: arial;
+  font-weight: bold;
+  text-align:left ;
+  padding-left: 10px ;
+  padding-right:0px;
+  margin-top: 1px;
+  margin-bottom:2px;
+  border-style:solid;
+  width:100px;
+  border: none;
+  font-size:14px;
+
+
+}
+.mutual
+{
+  font-family: arial;
+  text-align:left ;
+  padding-left: 10px ;
+  margin-top: 0px;
+  font-size:9px;
+  color:rgb(126, 122, 122);
+  margin-bottom:5px;
+
+}
+.add
+{
+ border-radius:3px;
+ margin-left:8px;
+ margin-top:0px;
+ border:none;
+ background-color:rgb(91, 91, 255);
+ color:white;
+ padding-top:3px;
+ font-size:12px;
+ padding-left:7px;
+ padding-right:7px ;
+ padding-bottom:3px ;
+
+}
+.add:hover{
+  background-color:white ;
+    color:rgb(86, 86, 240);
+    border-color:rgb(86, 86, 240); 
+    cursor:pointer;
+    transition:background-color 0.15s,color 0.15s  ;
+    border:solid;
+     border-width:1px ;
+   }
+   .add:active{
+    opacity:0.7;
+   }
+
+.outerline2
+{
+  display:inline-block;
+  margin-left:10px;
+}
+.outerline3
+{
+  display:inline-block;
+  margin-left:10px;
+}

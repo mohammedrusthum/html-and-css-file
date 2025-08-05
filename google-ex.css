@@ -1,0 +1,82 @@
+.thumbnail{
+  display:block;
+  object-fit:contain;
+  width:200px;
+  margin: 0 auto;
+}
+.search-bar
+{
+  text-align:center;
+  width:400px;
+  height:30px;
+  padding-right:7px;
+  border-radius:8px;
+  align-content: center;
+  margin-left:10px;
+  display:block;
+  border:solid;
+  border-color: ghostwhite;
+  box-shadow:5px 5px 10px rgb(0,0,0,0.20);
+}
+.firstname,.lastname
+{
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display:inline-block; 
+  width:107px;
+  border-color:rgb(135, 130, 130);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  text-align:center;
+  margin-bottom:7px;
+  height:30px;
+  padding-top:5px;
+  font-style:arial ;
+  font-size: 17px;
+}
+.email
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:grey;
+  border-width:1px;
+  width:206px;
+ padding-left:15px;
+  border-radius:5px;
+  margin-top:2px;
+  height:30px;
+  padding-top:5px;
+  font-style:arial ;
+  font-size: 17px;
+  margin-bottom:5px;
+  display:block;
+  padding-bottom:5px ;
+}
+
+  .button
+  {
+    border-style: solid;
+    border-width:2px;
+    border-color:grey;
+    border-radius:10px;
+    width:225px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-bottom:5px;
+    padding-right:10px;
+    height:40px;
+    margin-top:0px;
+    background-color: rgb(86, 86, 240);
+    color: white;
+   }
+   .button:hover{
+    background-color:white ;
+    color:rgb(86, 86, 240);
+    border-color:rgb(86, 86, 240); 
+    cursor:pointer;
+    transition:background-color 0.15s,color 0.15s  ;
+
+   }
+   .button:active{
+    opacity:0.7;
+   }
